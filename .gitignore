@@ -1,0 +1,12 @@
+# IDE configs
+.idea/
+.vscode/
+
+# Local directories
+/archive
+/documentation
+/log
+/templates
+
+# Production ini
+ini/dcm_config.ini
