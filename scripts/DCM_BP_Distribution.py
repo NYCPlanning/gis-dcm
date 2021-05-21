@@ -7,7 +7,7 @@ try:
     StartTime = datetime.now().replace(microsecond=0)
 
     # Assign config path
-    root_path = os.path.dirname(os.path.dirname(__file__))
+    root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     ini_path = os.path.join(root_path, 'ini', 'dcm_config.ini')
     
     # Set configuration file path
